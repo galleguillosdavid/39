@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">veri</string>
+    <string name="weak">WEAK</string>
+    <string name="medium">MEDIUM</string>
+    <string name="strong">STRONG</string>
+    <string name="pass_level">Nivel de la Contraseña</string>
+    <string name="pass_enter">Ingresa Contraseña</string>
 </resources>

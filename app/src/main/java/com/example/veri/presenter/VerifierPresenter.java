@@ -19,15 +19,11 @@ public class VerifierPresenter implements IPresenter {
             case Verifier.WEAK:
                 this.view.showWeak();
                 break;
-                
-                case Verifier.MEDIUM:
-                    this.view.showMedium();
-                    break;
+            case Verifier.MEDIUM:
+                this.view.showMedium();
+                break;
             case Verifier.STRONG:
                 this.view.showStrong();
-
-
-
         }
     }
 }
