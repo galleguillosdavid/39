@@ -8,14 +8,14 @@ public class Verifier implements IVerifier{
     public static final int STRONG = -3;
 
     public int evaluatePass(String password){
-        if (!evaluateLength(password)) return  WEAK;
+        if (evaluateLength(password)) return  WEAK;
         if (!evaluateUpper(password)) return MEDIUM;
         return STRONG;
     }
 
     @Override
     public boolean evaluateLength(String password) {
-        return password.length() > MIN_LENGTH;
+        return password.length() < MIN_LENGTH;
     }
 
     @Override
